@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <title>Bağlantılar</title>
+</head>
+<body>
+    <h2>Oluşturulan Keyler</h2>
+    <ul>
+        {% for key in keys %}
+            <li>{{ key.key_value }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
